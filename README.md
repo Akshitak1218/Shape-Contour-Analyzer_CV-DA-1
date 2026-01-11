@@ -20,7 +20,7 @@ Plotly – data visualization
 Pillow (PIL) – image loading
 
 Methodology: 
-Image Upload: User uploads an image via the Streamlit interface.
+Image Upload- User uploads an image via the Streamlit interface.
 Preprocessing
 1. Convert image to grayscale
 2. Apply Gaussian blur to reduce noise
