@@ -21,16 +21,16 @@ Pillow (PIL) – image loading
 
 Methodology: 
 Image Upload: User uploads an image via the Streamlit interface.
-Preprocessing: 
+Preprocessing
 1. Convert image to grayscale
 2. Apply Gaussian blur to reduce noise
-Edge Detection: Use Canny edge detector to highlight object boundaries.
-Contour Detection: Extract external contours using OpenCV.
-Shape Classification:
+Edge Detection- Use Canny edge detector to highlight object boundaries.
+Contour Detection- Extract external contours using OpenCV.
+Shape Classification
 1. Approximate contours to determine number of vertices
 2. Use geometric properties (vertices & circularity) to classify shapes.
 Feature Extraction: Area, Perimeter, Centroid
-Visualization & Analytics: 
+Visualization & Analytics
 1. Display original image, edge map, and detected shapes
 2. Show summary metrics and charts
 3. Allow CSV download of results
