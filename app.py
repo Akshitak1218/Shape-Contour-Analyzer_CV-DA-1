@@ -49,7 +49,7 @@ st.markdown('<p class="subtitle">Interactive geometric shape detection & feature
 st.sidebar.header("⚙️ Control Panel")
 
 uploaded_file = st.sidebar.file_uploader(
-    "📁 Upload Image",
+    "Upload Image",
     type=["png", "jpg", "jpeg"]
 )
 
@@ -147,7 +147,7 @@ if uploaded_file:
     # --------------------------------------------------
     # IMAGE DISPLAY
     # --------------------------------------------------
-    st.subheader("🖼️ Image Processing Pipeline")
+    st.subheader("Image Processing Pipeline")
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -162,7 +162,7 @@ if uploaded_file:
     # --------------------------------------------------
     # METRICS
     # --------------------------------------------------
-    st.subheader("📊 Detection Summary")
+    st.subheader(" Detection Summary")
 
     m1, m2, m3, m4, m5 = st.columns(5)
 
@@ -208,4 +208,5 @@ if uploaded_file:
     st.plotly_chart(fig2, use_container_width=True)
 
 else:
-    st.info("👈 Upload an image from the sidebar to begin analysis.")
+    st.info(" Upload an image from the sidebar to begin analysis.")
+
